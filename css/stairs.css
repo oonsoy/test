@@ -1,0 +1,22 @@
+{/*border: 1px solid black;*/}
+
+body {background-color: #081b15;}
+
+.main {
+  margin-top : 50px;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  left: 0px;right: 0px;
+}
+
+img {
+  width: 100%;
+}
+
+#Exit {
+position: absolute;
+bottom: 5%; left: 30%;
+opacity: 0;
+width: 20%; height: 9%;
+}

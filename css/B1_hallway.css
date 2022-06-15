@@ -1,0 +1,32 @@
+*{/*border: 1px solid black;*/
+ padding: 0px;}
+
+body{background-color: #000000;}
+
+.container {
+  height: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute; top: 0px; left: 0px;
+}
+
+ul {
+  width: 100%;
+  position: absolute; left: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  background-color: #23211e;
+}
+
+li {
+  float: left;
+  width: 33%;
+  list-style: none;
+  text-align: center;
+}
+
+img {
+  width: 50%; height: auto;
+}

@@ -1,0 +1,31 @@
+*{/*border: 1px solid black;*/}
+
+body {background-color: #f8aca5;}
+
+.main {
+  background-image: url('../img/Lobby.png');
+  background-repeat: no-repeat;
+  background-size: 110%;
+  margin-top : 50px;
+  background-position: center center;
+  justify-content: center;
+  width: 100%; height:600px;
+
+  position: absolute;
+  left: 0px;right: 0px;
+}
+
+#Mimg {
+  width: 12%; height: auto;
+  right: 40%; top: 40%;
+  position: absolute;
+}
+
+
+@media screen and (max-width: 1200px){
+#Mimg{ top: 43%; width: 12%}
+}
+
+@media screen and (max-width: 800px){
+#Mimg{ top: 47%; width: 11%}
+}

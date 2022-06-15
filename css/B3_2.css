@@ -1,0 +1,30 @@
+/*{border: 1px solid black;}*/
+
+#Simg{
+  width: 10%; height: auto;
+  position: absolute;
+  bottom: 30%; left: 10%;}
+
+.main {
+  width: 100%;
+  position: absolute; left: 0px; top: 0px;
+ }
+
+#Mimg {
+  width: 100%; height: auto;
+}
+
+#exit {
+position: absolute;
+bottom: 22%; left: 19%;
+opacity: 0;
+width: 5%; height: auto;
+}
+
+/*@media screen and (max-width: 1200px){
+#Mimg{ top: 43%; width: 12%}
+}
+
+@media screen and (max-width: 800px){
+#Mimg{ top: 47%; width: 11%}
+}
