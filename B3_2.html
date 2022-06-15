@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/B3_2.css">
+</head>
+<body>
+
+    <div class="main"><img src="img/B3_2Off.png" id="Mimg">
+      <img onclick="ChangeColor(1)" src="img/off.png" id="Simg">
+      <a href="B3_hallway.html"><img src="img/sign.png" id="exit"></a>
+    </div>
+
+    <script type="text/javascript">function
+
+      ChangeColor(t){   
+      if( t == 1 ){               
+      document.getElementById('Simg').src = "img/on.png";
+      document.getElementById('Mimg').src = "img/B3_2ON.png";}
+      else {       
+      document.getElementById('Simg').src = "img/off.png"; }
+    }
+    </script>
+
+</body>
+</html>
